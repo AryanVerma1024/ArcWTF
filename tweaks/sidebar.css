@@ -36,7 +36,7 @@
 /* if this preference is activated in about:config, sidebar width will be increased */
 @media (-moz-bool-pref: "uc.tweak.longer-sidebar") {
   :root #sidebar-box {
-    --uc-sidebar-hover-width: 250px !important;
+    --uc-sidebar-hover-width: 275px !important;
   }
 }
 
@@ -174,13 +174,13 @@
       var(--uc-tweak-rounded-corners-padding) - 3px
     ) !important;
   }
-  
+
   & #sidebar-header {
     margin-inline-start: calc(
       var(--uc-tweak-rounded-corners-padding) - 3px
     ) !important;
   }
-  
+
   & #sidebar-box:hover > #sidebar {
     margin-inline-start: calc(
       var(--uc-tweak-rounded-corners-padding) - 3px

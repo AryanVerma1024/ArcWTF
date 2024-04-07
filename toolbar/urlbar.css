@@ -64,7 +64,7 @@
 
 #urlbar #urlbar-input {text-align: center !important}
 #urlbar-background {background: transparent !important;}
-#urlbar[focused="true"] > #urlbar-background {background: var(--arrowpanel-background) !important;}
+#urlbar[focused="true"] > #urlbar-background {background: var(--toolbar-bgcolor) !important;}
 
 /* URL bar suggestions container. */
 .urlbarView {
@@ -73,7 +73,7 @@
   width: 100% !important;
   border-inline: 0 !important;
   padding-block: 0 !important;
-  background: var(--arrowpanel-background) !important;
+  background: var(--toolbar-bgcolor) !important;
   border-radius: 0 0 8px 8px !important;
 
 
@@ -94,7 +94,7 @@
   border: none !important;
   border-radius: 8px !important;
   margin-inline: 2px !important;
-  
+
   /* Vertically align search suggestion thumbnail images. */
   &[rich-suggestion] > .urlbarView-row-inner > .urlbarView-favicon {
     margin-inline-start: calc(var(--urlbarView-icon-margin-start) + (16px - var(--urlbarView-rich-suggestion-default-icon-size)) / 2) !important;
