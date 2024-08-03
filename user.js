@@ -24,9 +24,6 @@ user_pref("browser.download.open_pdf_attachments_inline", true);
 // Disable Pocket
 user_pref("extensions.pocket.enabled", false);
 
-// Disable system colors
-user_pref("browser.display.use_system_colors", false);
-
 // Disable Activity Stream
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
